@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/project/klassy Resaturant.css">
+    <link rel="stylesheet" href="/Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/Bootstrap/js/bootstrap.js"></script>
+</head>
+<style>
+    .nav li a:hover{
+        background-image: linear-gradient(#c3f5 20%,#fff 20%, #854fee 70%);
+    
+    }
+</style>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-light">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand"><strong
+                    style="font-family: tahoma; font-size: 30px; color: white;">Klassy</strong><br>
+                <p style="font-size: 12px; color: red;">since1990</p>
+            </a>
+            <ul class="nav">
+                <li class="nav-item">
+                <li><a class="nav-link active" href="#">Home</a></li>
+                <li><a class="nav-link" href="#About">About Us</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" class="nav-link dropdown-toggle" href="#" role="button"
+                        data-bs-toggle="dropdown">Menu</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#Menu" class="dropdown-item">Our Menu</a></li>
+                        <li><a href="#" class="dropdown-item">Menu</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item-dropdown">
+                    <a class="nav-link" href="#" class="nav-link dropdown-toggle" role="button"
+                        data-bs-toggle="dropdown">Features</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" class="dropdown-item">Home Delivery</a></li>
+                        <li><a href="#" class="dropdown-item">Tiffien Service</a></li>
+                    </ul>
+                </li>
+                <li><a class="nav-link" href="#chefs">Chefs</a></li>
+                <li><a class="nav-link" href="#contact">Contact US</a></li>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Home -->
+    <div class="container-fluid bg-danger text-light">
+        <div class="row">
+            <div class="col-md-3" style="box-sizing: border-box; padding: 80px 10px 10px 5px;">
+                <h1 style="font-family:sans-serif;">Klassy Cafe
+                <p style="font-size: 13px;">The Best Experience</p></h1>
+                <a href="#" style="color: orangered; text-decoration: none; background-color: white; 
+                box-sizing: border-box; padding:4px 10px 4px 20px ;">Moke a Reservation</a>
+            </div>
+            <div class="col-md-9">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/Restaurant/main6.jpg" class="d-block w-100" alt="..."
+                                style=" height: 70vh;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/Restaurant/main7.jpg" class="d-block w-100" alt="..."
+                                style=" height: 70vh;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/Restaurant/main8.jpg" class="d-block w-100" alt="..."
+                                style=" height: 70vh;">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div><br><br>
+
+    <!-- About US -->
+    <div class="container bg-light">
+        <div class="row">
+            <div class="col-md-6">
+                <h4 style="text-align: center;"><a name="About"><strong style="color: darkred;">About US</strong></a>
+                </h4>
+                <h1>We leave A Delicious Memory For YOu</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus quis rerum provident minima
+                    temporibus reiciendis autem <span style="color: darkcyan;"> dolores deleniti adipisci laudantium
+                        assumenda eos ullam veritatis ea
+                        amet quaerat, mollitia magni libero. </span> Lorem, ipsum dolor sit amet consectetur adipisicing
+                    elit. Magni
+                    aliquam culpa, enim earum vel molestias nihil fuga amet voluptas odit perferendis, error et
+                    consectetur voluptate. Accusamus neque praesentium perferendis nostrum. </p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="/Restaurant/food6.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="/Restaurant/food7.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="/Restaurant/food8.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <img src="/Restaurant/Main1.jpg" alt="" style="width: 100%; height: 85vh;">
+            </div>
+        </div>
+    </div><br>
+    <hr><br>
+
+    <!-- Menu -->
+    <div class="container">
+        <h4 style="text-align: center;"><a name="Menu"><strong style="color: darkred;">OUR Menus</strong></a></h4>
+        <p style="color: darkred; text-align: center;">Our Selection of food with quality taste</p>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="/Restaurant/food1.jpg" alt="" style="height: 33vh;">
+                    <div class="card-body bg-danger">
+                        <h4 class="card-title">Klassy Cup slate></h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+                            asperiores?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="/Restaurant/food4.jpg" alt="" style="height: 25vh;">
+                    <div class="card-body bg-danger">
+                        <h4 class="card-title">Klassy cup Sandwich</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quia impedit rem voluptates
+                            modi!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="/Restaurant/food3.jpg" alt="" style="height: 25vh;">
+                    <div class="card-body bg-danger">
+                        <h4 class="card-title">Klassy cup Sandwich</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quia impedit rem voluptates
+                            modi!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="/Restaurant/food2.jpg" alt="" style="height: 20vh;">
+                    <div class="card-body bg-danger">
+                        <h4 class="card-title">Klassy cup Sandwich</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, animi dolores et a at
+                            suscipit. optio assumenda!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr><br>
+    <div class="container">
+        <div class="row">
+            <h5 style="color: darkred; text-align: center"><a name="chefs"></a>Our chefs</h5>
+            <h3 style="font-family: tahoma; font-weight: 900; text-align: center;">We Offer the best <br> ingredient for
+                you</h3>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="/Restaurant/Chefs1.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title" style="font-weight: 700;">Randy Walker</h4>
+                        <p>Pastry Chefs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="/Restaurant/Chefs2.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title" style="font-weight: 700;">David Martin</h4>
+                        <p>Cookie Chefs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="/Restaurant/Chefs3.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title" style="font-weight: 700;">Peter perkson</h4>
+                        <p>Pancake Chefs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <!-- Contact US -->
+    <div class="container-fluid"
+        style="background-image:url(/Restaurant/Gallery2.jpg);
+         background-size: cover; color: white; box-sizing: border-box; padding: 70px;">
+        <div class="row">
+            <div class="col-md-6">
+                <p> <a name="contact"></a> CONTACT US</p>
+                <p style="font-size: 20px; font-weight: 700;">Here You can Make A Reservation <br> Or just Walkin to our
+                    cafe</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, libero? Alias accusamus repellat
+                    quos fugit ipsa facere quisquam a nesciunt saepe dolore minima reiciendis cupiditate numquam,
+                    tempore, dolorem quod aliquam.</p>
+                <div class="row">
+                    <div class="col-md-6" style="background-color: white; color: black; border-radius: 10px;">
+                        <h3>Phone Number</h3>
+                        <p>080-090-0990 <br>080-090-0880</p>
+                    </div>
+                    <div class="col-md-6" style="background-color: white; color: black; border-radius: 10px;">
+                        <h3>Email</h3>
+                        <p>klassy@company.com <br> info@company.com</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" style="background-color: white; color: black; box-sizing: border-box;
+             padding-left: 60px; border-radius: 3px;">
+                <h5 style="font-weight: 700; text-align: center;box-sizing: border-box; padding-top: 30px;">
+                    Table Reservation</h5>
+                <input type="text" placeholder="Your Name*">
+                <input type="email" placeholder="Your Email Address*"><br><br>
+                <input type="number" name="" id="" placeholder="Phone Number*">
+                <input type="number" name="" id="" placeholder="Number of Guests*"><br><br>
+                <input type="datetime" name="" id="" placeholder="dd/mm/yyyy">
+                <input type="datetime" name="" id="" placeholder="Time"><br><br>
+                <input type="text" placeholder="Message" style="width: 86%; height: 15%;">
+                <a href="#" style="text-decoration: none; color: white; background-color: red; padding-left: 130px;
+                 padding-right: 130px;">Make A Reservation</a>
+                 <br><br>
+            </div>
+        </div>
+    </div><br><hr><br>
+
+    <!-- Klassy Week Special -->
+    <div class="container-fluid">
+        <p style="color: darkred; font-size: 20px; font-weight: 400; text-align: center;">Klassy Week</p>
+        <h3 style="font-weight: 700; text-align: center;">This Week's Special <br> Meal Offer</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="/Restaurant/food7.jpg" alt="" style="width: 190px;">
+                    </div>
+                    <div class="col-md-6">
+                        <h4 style="font-weight:700; font-size: 26px;">Fresh Chicken Salad</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, optio!
+                            Lorem ipsum dolor sit
+                        </p>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="#" style="background-color: orangered; text-decoration: none;
+                             color: white; box-sizing: border-box; padding: 10px 10px 10px 10px;">$10.50</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="/Restaurant/food8.jpg" alt="" style="width:190px;">
+                    </div>
+                    <div class="col-md-6">
+                        <h4 style="font-weight:700; font-size: 26px;">Eggs Omelette</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nam eum qui ipsum?
+                             Nobis, nostrum!</p>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="#" style="background-color: orangered; text-decoration: none;
+                             color: white; box-sizing: border-box; padding: 10px 10px 10px 10px;">$6.50</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="/Restaurant/food6.jpg" alt="" style="width:190px;">
+                    </div>
+                    <div class="col-md-6">
+                        <h4 style="font-weight:700; font-size: 26px;">Vegeterian Dishes</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ipsum
+                             in voluptatum autem dolor soluta.</p>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="#" style="background-color: orangered; text-decoration: none;
+                             color: white; box-sizing: border-box; padding: 10px 10px 10px 10px;">$40.4</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="/Restaurant/main6.jpg" alt="" style="width:190px;">
+                    </div>
+                    <div class="col-md-6">
+                        <h4 style="font-weight:700; font-size: 26px;">Dollama Dishes</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ipsum
+                        in voluptatum autem dolor soluta.</p>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="#" style="background-color: orangered; text-decoration: none;
+                             color: white; box-sizing: border-box; padding: 10px 10px 10px 10px;">$40.4</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="/Restaurant/main6.jpg" alt="" style="width:190px;">
+                    </div>
+                    <div class="col-md-6">
+                        <h4 style="font-weight:700; font-size: 26px;">Nonvegterian Dishes</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ipsum
+                        in voluptatum autem dolor soluta.</p>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="#" style="background-color: orangered; text-decoration: none;
+                             color: white; box-sizing: border-box; padding: 10px 10px 10px 10px;">$9.90</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="/Restaurant/main10.jpg" alt="" style="width:190px;">
+                    </div>
+                    <div class="col-md-6">
+                        <h4 style="font-weight:700; font-size: 26px;">Omelette Pizza</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ipsum
+                        in voluptatum autem dolor soluta.</p>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="#" style="background-color: orangered; text-decoration: none;
+                             color: white; box-sizing: border-box; padding: 10px 10px 10px 10px;">$5.90</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid bg-danger" style="box-sizing: border-box; padding: 20px 0px 0px 20px; color: white;">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="logo">
+                        <i class="fa fa-facebook" style="background-color: white; border: 9px solid white;
+                        color: orangered; border-radius: 100px;"></i>
+                        <i class="fa fa-instagram" style="background-color: white; border: 9px solid white;
+                        color: orangered; border-radius: 100px;" ></i>
+                        <i class="fa fa-twitter" style="background-color: white; border: 9px solid white;
+                        color: orangered; border-radius: 100px;"></i>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-kitchen"></i>
+                    <h4 style="font-size: 20px; font-family: 'Courier New', Courier, monospace;">Klassy</h4>
+                    <p style="font-size: 18px; font-family: 'Courier New', Courier, monospace;">since1990</p>
+                </div>
+                <div class="col-md-4">
+                    <h6 style="font-size:13px;">&copy; Copyright Klassy Cafe Co.</h6>
+                    <p style="font-size: 13px; margin-left: 45px;">Desinger Shubham</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
